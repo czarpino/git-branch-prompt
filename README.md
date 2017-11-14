@@ -21,4 +21,4 @@ Whenever inside a Git repository, prompt will display the current Git branch. Th
 
 3. Open a new terminal or execute `source ~/.bash_profile` for the changes to take effect
 
-
+![Git Branch Prompt Preview](https://raw.github.com/czarpino/git-branch-prompt/master/preview.png)
