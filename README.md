@@ -17,7 +17,7 @@ Whenever inside a Git repository, prompt will display the current Git branch. Th
 2. Edit `~/.bash_profile`
 
         source ~/.bash/git-branch-prompt/main.sh
-		export PS1="\W \e[0;36m\]\$git_branch\e[0;31m\]\$git_dirty\e[0m\]\$ "
+		export PS1="\W \[\e[0;36m\]\$git_branch\[\e[0m\]\$ "
 
 3. Open a new terminal or execute `source ~/.bash_profile` for the changes to take effect
 
