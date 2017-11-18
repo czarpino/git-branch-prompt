@@ -4,7 +4,7 @@ Display the current Git branch with no frills and minimal performance impact.
 
 ## Overview
 
-Whenever inside a Git repository, prompt will display the current Git branch. This conveniently lets you know you are inside a Git repo and on what branch.
+Whenever inside a Git repository, prompt will display the current Git branch. This conveniently lets you know you are inside a Git repo and on what branch. Unlike most approaches, no Git command is used to determine the branch. Instead, it is simply read off a file making it independent of the Git cli's performance.
 
 ## Installation
 
