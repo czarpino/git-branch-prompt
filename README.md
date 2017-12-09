@@ -1,12 +1,8 @@
 # Git Branch Prompt
 
-Show current Git branch, faster.
+Show current git branch in bash prompt with a thought on performance. Approach is based on basic `git rev-parse` so on a well spec'ed computer optimizations emplpoyed here would be completely unnoticeable. For those who do find it noticeable, however, this is a slightly faster alternative.
 
-## Overview
-
-Whenever inside a Git repository, prompt will display the current Git branch. This conveniently lets you know you are inside a Git repo and on what branch. Unlike most approaches, no Git command is used to determine the branch. Instead, it is simply read off a file making it independent of the Git cli's performance.
-
-## Installation
+## How to
 
 1. Clone the project into `~/.bash`
 
@@ -20,5 +16,3 @@ Whenever inside a Git repository, prompt will display the current Git branch. Th
 		export PS1="\W \[\e[0;36m\]\$git_branch\[\e[0m\]\$ "
 
 3. Open a new terminal or execute `source ~/.bash_profile` for the changes to take effect
-
-![Git Branch Prompt Preview](https://raw.github.com/czarpino/git-branch-prompt/master/preview.png)
