@@ -1,6 +1,6 @@
 # Git Branch Prompt
 
-Display the current Git branch with no frills and minimal performance impact.
+Show current Git branch, faster.
 
 ## Overview
 
