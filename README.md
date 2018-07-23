@@ -1,3 +1,7 @@
+# Update
+
+> Project abandoned due to pointlessness and embarassment. Kept here for posterity.
+
 # Git Branch Prompt
 
 Show current git branch in bash prompt with a thought on performance. Approach is based on basic `git rev-parse` so on a well spec'ed computer optimizations employed here would be completely unnoticeable. For those who do find it noticeable, this is a slightly faster alternative.
